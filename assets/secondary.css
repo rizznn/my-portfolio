@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header h1 {
+    font-weight: normal;
+    font-size: 55px;
+    border: 1px solid powderblue;
+    background-color: powderblue;
+    padding-left: 75px;
+    margin: 5px 0 10px;
+    color: #444;
+}
+
+
+header a {
+    text-decoration: none;
+    color: #444;
+}

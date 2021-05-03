@@ -56,13 +56,13 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    border-bottom: 5px solid powderblue;
 }
 
 header nav ul li a {
+    border-bottom: 4px solid powderblue;
     color: powderblue;
     text-decoration: none;
-    padding: 10px 15px;
+    margin: 0 20px;
     font-size: 1.25vw;
 }
 
@@ -84,37 +84,114 @@ header p {
 .about {
     display: flex;
     margin: 25px;
+    justify-content: center;
 }
 
 .about h2 {
     flex: 1;
     color: #1f3b51;
     font-size: 50px;
-    font-weight: normal;
     border-right: 3px solid #1f3b51;
-    height: 150px;
-    margin: 
-}
-hr{
-    border-color: #1f3b51;
-    margin-left: 0;
+    height: 260px;
+    width: 20%;
+    padding: 10px 15px 0 85px;
+    margin-left: 60px;
+    text-align: right;
 }
 
 .par p{
     line-height: 1.5;
-    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 90%;
+    padding-left: 35px;
 }
 
+/* work styles */
 .work {
     color: #1f3b51;
     font-size: 30px;
     font-weight: normal;
-
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
+/* work styles */
+.work h2 {
+    width: 20%;
+    border-right: 3px solid #1f3b51;
+    height: 150px;
+    padding: 10px 15px 0 100px;
+    /* text-align: right; */
+    flex: 1;
+}
+
+.work nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.work nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work nav ul li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+.work nav ul li a {
+    border-bottom: 4px solid #1f3b51;
+    color: #1f3b51;
+    text-decoration: none;
+    font-size: 1.25vw;
+}
+
+
+/* contact styles */
 .contact {
     color: #1f3b51;
     font-size: 30px;
-    font-weight: normal;
+    font-weight: lighter;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.contact h2 {
+    width: 20%;
+    border-right: 3px solid #1f3b51;
+    height: 150px;
+    padding: 10px 15px 0 100px;
+    text-align: right;
+    flex: 1;
+}
+
+.contact nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.contact nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact nav ul li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+.contact nav ul li a {
+    border-bottom: 4px solid #1f3b51;
+    color: #1f3b51;
+    text-decoration: none;
+    font-size: 1.25vw;
 }

@@ -82,6 +82,7 @@ header p {
 }
 
 
+
 /* about me styles */
 .about {
     display: flex;
@@ -240,4 +241,13 @@ header p {
     color: #1f3b51;
     text-decoration: none;
     font-size: 1.25vw;
+}
+
+/* MEDIA QUERYx */
+@media screen and (max-width: 1020px) {
+    h2 {
+        padding-bottom: 0;
+        text-align: left;
+        margin: 0px;
+    }
 }

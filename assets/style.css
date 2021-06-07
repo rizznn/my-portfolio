@@ -33,8 +33,13 @@ header a {
 }
 
 .rizzel {
-    height: 10px;
-    width: 5px;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    height: 205px;
+    width: 160px;
+    
 }
 
 header h1 {

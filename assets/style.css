@@ -6,7 +6,6 @@
 }
 
 body {
-    
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -94,21 +93,21 @@ header p {
 
 
 /* about me styles */
-.about {
+.about, .work, .contact{
     display: flex;
     margin: 25px;
     justify-content: center;
 }
 
-.about h2 {
-    flex: 1;
+h2 {
+    flex: 1 30%;
     color: #1f3b51;
     font-size: 50px;
     border-right: 3px solid #1f3b51;
-    height: 260px;
+    /* height: 260px;
     width: 20%;
     padding: 10px 15px 0 85px;
-    margin-left: 60px;
+    margin-left: 60px; */
     text-align: right;
 }
 
@@ -117,41 +116,50 @@ header p {
     line-height: 1.5;
     margin-bottom: 20px;
     font-size: 20px;
-    width: 90%;
+    /* width: 90%; */
     padding-left: 35px;
+    flex: 2 70%;
 }
 
 /* work styles */
-.work {
+/* .work {
     color: #1f3b51;
     font-size: 30px;
     font-weight: normal;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* margin-bottom: 30px; */
+    /* justify-content: center; */
+    /* margin: 25px; */
+/* } */
+
+/* .work h2 { */
+    /* width: 20%; */
+    /* border-right: 3px solid #1f3b51; */
+    /* height: 150px; */
+    /* padding: 10px 15px 0 100px; */
+    /* text-align: right; */
+    /* flex: 1 10%;
+} */
+
+.work .projects {
+    flex: 2 70%;
+    padding-left: 35px;
 }
 
-.work h2 {
-    width: 20%;
-    border-right: 3px solid #1f3b51;
-    height: 150px;
-    padding: 10px 15px 0 100px;
-    text-align: right;
-    flex: 1;
-}
+/* .work nav { */
+    /* width: 80%; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin-left: 25px; */
+/* } */
 
-.work nav {
-    width: 80%;
-    display: flex;
-    align-items: center;
-    margin-left: 25px;
-}
-
-.work nav ul {
-    display: flex;
-    flex-wrap: wrap;
-}
+/* .work nav ul { */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex: 2 70%; */
+/* } */
 
 .work nav ul li {
     list-style: none;
@@ -165,10 +173,10 @@ header p {
     font-size: 1.25vw;
 }
 
-.work nav ul li a:hover {
+/* .work nav ul li a:hover {
     border: 5px solid #1f3b51;
     position: relative; 
-    top:-25px; 
+    top:25px; 
     left:-35px; 
     width:600px; 
     height:500px; 
@@ -176,7 +184,7 @@ header p {
     z-index:999;
     color: #1f3b51;
     text-shadow: none;
-}
+} */
 
 /* projects */
 .run-buddy {
@@ -210,26 +218,26 @@ header p {
 
 
 /* contact styles */
-.contact {
-    color: #1f3b51;
+/* .contact { */
+    /* color: #1f3b51;
     font-size: 30px;
     font-weight: lighter;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
+    /* width: 100%; */
+    /* display: flex;  */
+    /* flex-wrap: wrap; */
+/* } */
 
-.contact h2 {
+/* .contact h2 {
     width: 20%;
     border-right: 3px solid #1f3b51;
     height: 150px;
     padding: 10px 15px 0 100px;
     text-align: right;
     flex: 1;
-}
+} */
 
 .contact nav {
-    width: 80%;
+    flex: 2 80%;
     display: flex;
     align-items: center;
     margin-left: 25px;
@@ -237,7 +245,7 @@ header p {
 
 .contact nav ul {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .contact nav ul li {

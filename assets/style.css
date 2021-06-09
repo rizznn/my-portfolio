@@ -31,15 +31,14 @@ header a {
     height: 30vh;
 }
 
+/* portrait */
 img {
-    /* display: flex; */
     position: absolute;
     top: 100%;
     left: 10%;
-    /* top: 80px;
-    left: 200px;
-    height: 205px;
-    width: 160px; */
+    border: 5px solid powderblue;
+    max-height: 30vh;
+    max-width: 100% - 80vh;
     
 }
 
@@ -59,7 +58,7 @@ header nav {
     justify-content: flex-end;
     align-items: center;
     float: right;
-    margin-right: 50px;
+    margin-right: 5%;
     height: 10vh;
 } 
 
@@ -88,7 +87,7 @@ header p {
     color: #444;
     display: flex;
     position: absolute;
-    bottom: -270%;
+    bottom: -240%;
     left: 70%;
 }
 
@@ -102,19 +101,17 @@ header p {
 }
 
 h2 {
-    /* flex: 1 30%; */
     color: #1f3b51;
     font-size: 50px;
     margin-right: 2rem;
-    /* height: 260px; */
     width: 25rem;
     padding: 10px 15px 0 85px;
-    /* margin-left: 60px; */
     text-align: right;
 }
 .par, .projects, .contact-list {
     margin-left: auto;
-    /* border-left: 3px solid #1f3b51; */
+    padding-left: 5%;
+    border-left: 3px solid #1f3b51;
     width: 100%
 }
 
@@ -123,7 +120,7 @@ h2 {
     line-height: 1.5;
     margin-bottom: 20px;
     font-size: 20px;
-    width: 90%;
+    width: 95%;
     /* padding-left: 35px; */
     /* flex: 2 70%; */
 }
@@ -168,19 +165,9 @@ h2 {
     /* flex: 2 70%; */
 /* } */
 
-.work ul li {
-    list-style: none;
-    margin: 0;
-}
 
-.work ul li a {
-    border-bottom: 4px solid #1f3b51;
-    color: #1f3b51;
-    text-decoration: none;
-    font-size: 1.25vw;
-}
 
-.work ul li a:hover {
+/* .work ul li a:hover {
     border: 5px solid #1f3b51;
     position: relative; 
     top:-200px; 
@@ -191,37 +178,54 @@ h2 {
     z-index:999;
     color: #1f3b51;
     text-shadow: none;
-}
+} */
 
 /* projects */
-.crunch-time {
-    background-image: url(./images/crunch.png);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+.projects ul li {
+    list-style: none;
+    margin: 0;
 }
 
-.run-buddy {
-    background-image: url(./images/run-buddy.png);
-    height: 40vh;
+.projects ul li a {
+    border-bottom: 4px solid #1f3b51;
+    color: #1f3b51;
+    text-decoration: none;
+    font-size: 1.25vw;
+}
+
+.projects a {
+    display: block;
     background-color: linear-gradient(to top right,
     rgba(176, 224, 230, 0.5));
     background-size: cover;
 }
 
+.half-display {
+    height: 10vh;
+    width: 50%;
+}
+
+.crunch-time {
+    background-image: url(./images/crunch.png);
+    /* display: block; */
+    width: 95%;
+    height: 60vh;
+}
+
+.run-buddy {
+    background-image: url(./images/run-buddy.png);
+}
+
 .horiseon {
     background-image: url(./images/horiseon.png);
-    background-size: cover;
 }
 
 .workday {
     background-image: url(./images/work-planner.png);
-    background-size: cover;
 }
 
 .password {
     background-image: url(./images/password.png);
-    background-size: cover;
 }
 
 
@@ -231,9 +235,8 @@ h2 {
     color: #1f3b51;
     font-size: 30px;
     font-weight: lighter;
-    width: 100%;
-    display: flex; 
-    /* flex-wrap: wrap; */
+    /* width: 100%; */
+    /* display: flex;  */
 }
 
 /* .contact h2 {
@@ -281,3 +284,30 @@ h2 {
         left: 50%;
     }
 }
+
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header h1 a {
+      /* this will be applied on any screen smaller than 980px */
+      color: tomato;
+    }
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      /* this will be applied on any screen between 768px and 575px */
+      font-size: 80px;
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    header h1 {
+      /* this will be applied on any screen smaller than 575px */
+      font-size: 100px;
+    }
+  }

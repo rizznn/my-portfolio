@@ -187,45 +187,67 @@ h2 {
 }
 
 .projects ul li a {
-    border-bottom: 4px solid #1f3b51;
     color: #1f3b51;
     text-decoration: none;
     font-size: 1.25vw;
-}
-
-.projects a {
-    display: block;
-    background-color: linear-gradient(to top right,
-    rgba(176, 224, 230, 0.5));
+    display: inline-block;
     background-size: cover;
+    border: 5px solid powderblue;
 }
 
 .half-display {
-    height: 10vh;
-    width: 50%;
+    height: 30vh;
+    width: 90%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 45%;
 }
 
 .crunch-time {
-    background-image: url(./images/crunch.png);
-    /* display: block; */
+    background-image:    linear-gradient(
+        rgba(19, 73, 80, 0.7), 
+        rgba(19, 73, 80, 0.7)),
+        url('./images/crunch.png');
     width: 95%;
     height: 60vh;
+    background-position: center;
 }
 
 .run-buddy {
-    background-image: url(./images/run-buddy.png);
+    background-image: 
+    linear-gradient(
+        rgba(19, 73, 80, 0.7), 
+        rgba(19, 73, 80, 0.7)),
+        url('./images/run-buddy.png');
 }
 
 .horiseon {
-    background-image: url(./images/horiseon.png);
+    background-image: 
+    linear-gradient(
+        rgba(19, 73, 80, 0.7), 
+        rgba(19, 73, 80, 0.7)),
+        url('./images/horiseon.png');
 }
 
 .workday {
-    background-image: url(./images/work-planner.png);
+    background-image: 
+    linear-gradient(
+        rgba(19, 73, 80, 0.7), 
+        rgba(19, 73, 80, 0.7)),
+        url('./images/work-planner.png');
 }
 
 .password {
-    background-image: url(./images/password.png);
+    background-image: 
+    linear-gradient(
+        rgba(19, 73, 80, 0.7), 
+        rgba(19, 73, 80, 0.7)),
+        url('./images/password.png');
 }
 
 

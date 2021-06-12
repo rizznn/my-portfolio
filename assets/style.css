@@ -258,6 +258,7 @@ h2 {
 .contact ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .contact ul li {

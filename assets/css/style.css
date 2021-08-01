@@ -188,6 +188,10 @@ h2 {
     margin-bottom: 1%;
 }
 
+.coworkers:hover {
+    background-image: url('/assets/images/coworker1.png');
+}
+
 .projects p {
     z-index: 100;
     position: absolute;
@@ -208,6 +212,7 @@ h2 {
         rgba(19, 73, 80, 0.7)),
         url('/assets/images/crunch.png');
 }
+
 .crunch-time:hover {
     background-image: url('/assets/images/crunch.png');
 }

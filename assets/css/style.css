@@ -45,7 +45,7 @@ header a {
 }
 
 .jumbo {
-    background: url(./images/background.jpeg);
+    background: url(/assets/images/background.jpeg);
     background-position: center;
     background-attachment: fixed;
     height: 30vh;
@@ -58,7 +58,7 @@ img {
     left: 10%;
     border: 5px solid var(--theme-color);
     max-height: 30vh;
-    max-width: 100% - 80vh;
+    max-width: 23vh;
     
 }
 
@@ -106,7 +106,7 @@ header p {
     background-color: var(--theme-color);
     color: var(--theme-color2);
     position: absolute;
-    bottom: -240%;
+    bottom: -235%;
     left: 70%;
 }
 
@@ -176,17 +176,18 @@ h2 {
     flex: 45%;
 }
 
-.crunch-time {
+.coworkers {
     background-image:    linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('./images/crunch.png');
+        url('/assets/images/coworker.png');
     width: 95%;
     height: 75vh;
     background-position: center;
     position: relative;
     margin-bottom: 1%;
 }
+
 .projects p {
     z-index: 100;
     position: absolute;
@@ -196,19 +197,43 @@ h2 {
     top: 390px;
 }
 
-.crunch-time:hover {
-    background-image: url('./images/crunch.png');
+.tech {
+    display: flex;
 }
+
+.crunch-time {
+    background-image: 
+    linear-gradient(
+        rgba(19, 73, 80, 0.7), 
+        rgba(19, 73, 80, 0.7)),
+        url('/assets/images/crunch.png');
+}
+.crunch-time:hover {
+    background-image: url('/assets/images/crunch.png');
+}
+
+.readme-builder {
+    background-image: 
+    linear-gradient(
+        rgba(19, 73, 80, 0.7), 
+        rgba(19, 73, 80, 0.7)),
+        url('/assets/images/readme-builder.png');
+}
+
+.readme-builder:hover {
+    background-image: url('/assets/images/readme-builder.png');
+}
+
 .run-buddy {
     background-image: 
     linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('./images/run-buddy.png');
+        url('/assets/images/run-buddy.png');
 }
 
 .run-buddy:hover {
-    background-image: url('./images/run-buddy.png')
+    background-image: url('/assets/images/run-buddy.png');
 }
 
 .horiseon {
@@ -216,11 +241,11 @@ h2 {
     linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('./images/horiseon.png');
+        url('/assets/images/horiseon.png');
 }
 
 .horiseon:hover {
-    background-image: url('./images/horiseon.png')
+    background-image: url('/assets/images/horiseon.png');
 }
 
 .workday {
@@ -228,11 +253,11 @@ h2 {
     linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('./images/work-planner.png');
+        url('/assets/images/work-planner.png');
 }
 
 .workday:hover {
-    background-image: url('./images/work-planner.png')
+    background-image: url('/assets/images/work-planner.png');
 }
 
 .password {
@@ -240,11 +265,11 @@ h2 {
     linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('./images/password.png');
+        url('/assets/images/password.png');
 }
 
 .password:hover {
-    background-image: url('./images/password.png')
+    background-image: url('/assets/images/password.png');
 }
 
 
@@ -293,7 +318,7 @@ h2 {
     }
 
     .p1, .p3, .p5, .p7, .p9 {
-        top: 30%;
+        top: 0%;
     }
 }
 
@@ -305,7 +330,7 @@ h2 {
         left: 60%;
     }
 
-    .p3, .p5, .p7, .p9 {
+    .p1, .p3, .p5, .p7, .p9 {
         top: 0%;
     }
 

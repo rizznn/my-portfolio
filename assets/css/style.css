@@ -45,7 +45,7 @@ header a {
 }
 
 .jumbo {
-    background: url(/assets/images/background.jpeg);
+    background: url('../images/background.jpeg');
     background-position: center;
     background-attachment: fixed;
     height: 30vh;
@@ -180,7 +180,7 @@ h2 {
     background-image:    linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('/assets/images/coworker.png');
+        url('../images/coworker.png');
     width: 95%;
     height: 75vh;
     background-position: center;
@@ -189,7 +189,7 @@ h2 {
 }
 
 .coworkers:hover {
-    background-image: url('/assets/images/coworker1.png');
+    background-image: url('../images/coworker1.png');
 }
 
 .projects p {
@@ -210,11 +210,11 @@ h2 {
     linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('/assets/images/crunch.png');
+        url('../images/crunch.png');
 }
 
 .crunch-time:hover {
-    background-image: url('/assets/images/crunch.png');
+    background-image: url('../images/crunch.png');
 }
 
 .readme-builder {
@@ -222,11 +222,11 @@ h2 {
     linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('/assets/images/readme-builder.png');
+        url('../images/readme-builder.png');
 }
 
 .readme-builder:hover {
-    background-image: url('/assets/images/readme-builder.png');
+    background-image: url('../images/readme-builder.png');
 }
 
 .run-buddy {
@@ -234,11 +234,11 @@ h2 {
     linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('/assets/images/run-buddy.png');
+        url('../images/run-buddy.png');
 }
 
 .run-buddy:hover {
-    background-image: url('/assets/images/run-buddy.png');
+    background-image: url('../images/run-buddy.png');
 }
 
 .horiseon {
@@ -246,11 +246,11 @@ h2 {
     linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('/assets/images/horiseon.png');
+        url('../images/horiseon.png');
 }
 
 .horiseon:hover {
-    background-image: url('/assets/images/horiseon.png');
+    background-image: url('../images/horiseon.png');
 }
 
 .workday {
@@ -258,11 +258,11 @@ h2 {
     linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('/assets/images/work-planner.png');
+        url('../images/work-planner.png');
 }
 
 .workday:hover {
-    background-image: url('/assets/images/work-planner.png');
+    background-image: url('../images/work-planner.png');
 }
 
 .password {
@@ -270,11 +270,11 @@ h2 {
     linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('/assets/images/password.png');
+        url('../images/password.png');
 }
 
 .password:hover {
-    background-image: url('/assets/images/password.png');
+    background-image: url('../images/password.png');
 }
 
 

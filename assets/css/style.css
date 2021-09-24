@@ -176,11 +176,11 @@ h2 {
     flex: 45%;
 }
 
-.coworkers {
+.crazy-tetris {
     background-image:    linear-gradient(
         rgba(19, 73, 80, 0.7), 
         rgba(19, 73, 80, 0.7)),
-        url('../images/coworker.png');
+        url('../images/crazy-tetris.png');
     width: 95%;
     height: 75vh;
     background-position: center;
@@ -188,8 +188,8 @@ h2 {
     margin-bottom: 1%;
 }
 
-.coworkers:hover {
-    background-image: url('../images/coworker1.png');
+.crazy-tetris:hover {
+    background-image: url('../images/crazy-tetris1.png');
 }
 
 .projects p {
@@ -203,6 +203,18 @@ h2 {
 
 .tech {
     display: flex;
+}
+
+.coworkers {
+    background-image: 
+    linear-gradient(
+        rgba(19, 73, 80, 0.7), 
+        rgba(19, 73, 80, 0.7)),
+        url('../images/coworker.png');
+}
+
+.coworkers:hover {
+    background-image: url('../images/coworker1.png');
 }
 
 .crunch-time {
